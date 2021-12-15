@@ -5,7 +5,7 @@ import ruLocale from 'date-fns/locale/ru';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { QueryClient, QueryClientProvider } from 'react-query';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 
 import App from './App';
 import { Provider } from './store';
@@ -18,14 +18,14 @@ ReactDOM.render(
     <QueryClientProvider client={queryClient}>
       <ThemeProvider theme={theme} />
       <CssBaseline />
-      <BrowserRouter>
+      <Router>
         <LocalizationProvider dateAdapter={AdapterDateFns} locale={ruLocale}>
           <GlobalStyles />
           <Provider>
             <App />
           </Provider>
         </LocalizationProvider>
-      </BrowserRouter>
+      </Router>
     </QueryClientProvider>
   </React.StrictMode>,
   document.getElementById('root'),
