@@ -4,7 +4,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   envDir: './',
-  base: 'restoran',
+  base: '/restoran/',
   resolve: {
     alias: {
       '@components': path.resolve(__dirname, './src/components'),
