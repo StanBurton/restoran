@@ -11,7 +11,7 @@
     "lint": "npm run lint:format && npm run lint:fix ",
     "type-check": "tsc",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "engines": {
     "node": "16.x",
