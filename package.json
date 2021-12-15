@@ -10,6 +10,10 @@
     "lint": "npm run lint:format && npm run lint:fix ",
     "type-check": "tsc"
   },
+  "engines": {
+    "node": "16.13.1",
+    "npm": "8.3.0"
+  },
   "dependencies": {
     "@emotion/react": "^11.7.0",
     "@emotion/styled": "^11.6.0",
