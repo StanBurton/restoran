@@ -1,6 +1,6 @@
 {
-  "name": "vite-reactts-eslint-prettier",
-  "version": "0.0.0",
+  "name": "restoran",
+  "version": "0.1.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -12,7 +12,7 @@
   },
   "engines": {
     "node": "14.x",
-    "npm": "8.3.0"
+    "npm": "8.x"
   },
   "dependencies": {
     "@emotion/react": "^11.7.0",
